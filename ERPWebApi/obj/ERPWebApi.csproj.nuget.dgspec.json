@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\aliza\\Desktop\\Certify\\ERP-SIMAC-UTRACK\\ERPWebApi_2.0_BUZON\\ERPWebApi\\ERPWebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\aliza\\Desktop\\Certify\\ERP-SIMAC-UTRACK\\ERPWebApi_2.0_BUZON\\ERPWebApi\\ERPWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aliza\\Desktop\\Certify\\ERP-SIMAC-UTRACK\\ERPWebApi_2.0_BUZON\\ERPWebApi\\ERPWebApi.csproj",
+        "projectName": "ERPWebApi",
+        "projectPath": "C:\\Users\\aliza\\Desktop\\Certify\\ERP-SIMAC-UTRACK\\ERPWebApi_2.0_BUZON\\ERPWebApi\\ERPWebApi.csproj",
+        "packagesPath": "C:\\Users\\aliza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aliza\\Desktop\\Certify\\ERP-SIMAC-UTRACK\\ERPWebApi_2.0_BUZON\\ERPWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aliza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "BouncyCastle": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Mono.Security": {
+              "target": "Package",
+              "version": "[5.4.0.201, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.3.1, )"
+            },
+            "SW.Tools": {
+              "target": "Package",
+              "version": "[0.0.0.14, )"
+            },
+            "SoapCore": {
+              "target": "Package",
+              "version": "[0.9.8.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "cadenaoriginal33.dll": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

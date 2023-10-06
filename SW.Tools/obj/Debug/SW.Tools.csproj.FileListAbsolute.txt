@@ -1,0 +1,9 @@
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\SW.Tools\bin\Debug\SW.Tools.dll
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\SW.Tools\bin\Debug\SW.Tools.pdb
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\SW.Tools\bin\Debug\BouncyCastle.Crypto.dll
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\SW.Tools\bin\Debug\cadenaoriginal33.dll
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\SW.Tools\bin\Debug\Mono.Security.dll
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\SW.Tools\obj\Debug\SW.Tools.csprojResolveAssemblyReference.cache
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\SW.Tools\obj\Debug\SW.Tools.csproj.CoreCompileInputs.cache
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\SW.Tools\obj\Debug\SW.Tools.dll
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\SW.Tools\obj\Debug\SW.Tools.pdb

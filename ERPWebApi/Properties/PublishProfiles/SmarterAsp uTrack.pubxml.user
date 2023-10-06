@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAARUsURBSXkOZMjt/edsudAAAAAACAAAAAAAQZgAAAAEAACAAAAAwsqyiOTHQftmprO/9085YTOFPB9oyCesDoCcJfisrSQAAAAAOgAAAAAIAACAAAADNqjJvumvhZEkyrupk7ArNtoK5IzaFpvqNtwUpyhvKKiAAAAA+ncBMkvD7N0hQk/HSOdsGn6EWe0lefmI33WgjkTC//0AAAABn4ViF4V2uV5mPT8DuHcXNSoQz5xdRNJTSEIcM8LnCV+2TU4RgbttABtSgumymHolcJxUy3av7ppu/UxjVU98L</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.site4now.net/site1</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\bin\Any CPU\Release\netcoreapp2.0\ERPWebApi.deps.json
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\bin\Any CPU\Release\netcoreapp2.0\ERPWebApi.runtimeconfig.json
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\bin\Any CPU\Release\netcoreapp2.0\ERPWebApi.runtimeconfig.dev.json
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\bin\Any CPU\Release\netcoreapp2.0\ERPWebApi.dll
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\bin\Any CPU\Release\netcoreapp2.0\ERPWebApi.pdb
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\obj\Any CPU\Release\netcoreapp2.0\ERPWebApi.csproj.CoreCompileInputs.cache
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\obj\Any CPU\Release\netcoreapp2.0\ERPWebApi.AssemblyInfoInputs.cache
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\obj\Any CPU\Release\netcoreapp2.0\ERPWebApi.AssemblyInfo.cs
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\obj\Any CPU\Release\netcoreapp2.0\ERPWebApi.dll
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\obj\Any CPU\Release\netcoreapp2.0\ERPWebApi.pdb
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\obj\Any CPU\Release\netcoreapp2.0\ERPWebApi.csprojResolveAssemblyReference.cache
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\bin\Any CPU\Release\netcoreapp2.0\Mono.Security.dll
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\bin\Any CPU\Release\netcoreapp2.0\SW-sdk-45.dll
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\bin\Any CPU\Release\netcoreapp2.0\SW-sdk-45.pdb
+C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\bin\Any CPU\Release\netcoreapp2.0\SW-sdk-45.dll.config

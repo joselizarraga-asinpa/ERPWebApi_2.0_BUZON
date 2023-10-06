@@ -1,0 +1,9 @@
+C:\Users\aliza\Desktop\sw-sdk-dotnet-master\SW-sdk-45\bin\Debug\SW-sdk-45.dll.config
+C:\Users\aliza\Desktop\sw-sdk-dotnet-master\SW-sdk-45\bin\Debug\SW-sdk-45.dll
+C:\Users\aliza\Desktop\sw-sdk-dotnet-master\SW-sdk-45\bin\Debug\SW-sdk-45.pdb
+C:\Users\aliza\Desktop\sw-sdk-dotnet-master\SW-sdk-45\bin\Debug\Newtonsoft.Json.dll
+C:\Users\aliza\Desktop\sw-sdk-dotnet-master\SW-sdk-45\bin\Debug\Newtonsoft.Json.xml
+C:\Users\aliza\Desktop\sw-sdk-dotnet-master\SW-sdk-45\obj\Debug\SW-sdk-45.csprojResolveAssemblyReference.cache
+C:\Users\aliza\Desktop\sw-sdk-dotnet-master\SW-sdk-45\obj\Debug\SW-sdk-45.csproj.CoreCompileInputs.cache
+C:\Users\aliza\Desktop\sw-sdk-dotnet-master\SW-sdk-45\obj\Debug\SW-sdk-45.dll
+C:\Users\aliza\Desktop\sw-sdk-dotnet-master\SW-sdk-45\obj\Debug\SW-sdk-45.pdb

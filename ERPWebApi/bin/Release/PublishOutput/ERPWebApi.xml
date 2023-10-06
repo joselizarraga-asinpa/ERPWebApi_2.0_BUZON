@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ERPWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:ERPWebApi.Controllers.AlmacenController.Get(System.Int16,System.Int16,System.String)">
+            <summary>
+            Obtiene todos los almacenes de una sucursal
+            </summary>
+            <param name="id">0=para todos los almacenes</param>
+            <param name="idsucursal">id de la sucursal</param>
+            <param name="EntSal">E=Solo Almacenes de Entradas S= Solo Almacenes de Salidas T=Todos los Almacenes</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.AlmacenController.Get(System.Int16)">
+            <summary>
+            Obtiene un almacén especifico por su Id o todos
+            </summary>
+            <param name="id">0= para todos los almacenes</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.AlmacenController.Get(System.String,System.Int16)">
+            <summary>
+            Obtiene los almacenes que contengan las letras especificadas dentro de una sucursal especifica
+            </summary>
+            <param name="buscar">El nombre de almacen a buscar</param>
+            <param name="idsucursal">Id de la sucursal a buscar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.AlmacenController.Post(ERPWebApi.Entidades.Almacen)">
+            <summary>
+            Crea un nuevo almacén
+            </summary>
+            <param name="Almacen">objeto serializado de tipo Entidad.Almacen</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.AlmacenController.Put(ERPWebApi.Entidades.Almacen)">
+            <summary>
+            Actualiza los datos de un almacén existente
+            </summary>
+            <param name="Almacen">objeto serializado de tipo Entidades.Almacen</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.AlmacenController.Delete(System.Int16)">
+            <summary>
+            Elimina un Almacén específico
+            </summary>
+            <param name="id">Id del Almacén a eliminar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BancoController.Get">
+            <summary>
+            Obtiene todos los Bancos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BancoController.Get(System.Int16)">
+            <summary>
+            Obtiene un banco por su Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BancoController.Post(ERPWebApi.Entidades.Banco)">
+            <summary>
+            Crea un nuevo Banco
+            </summary>
+            <param name="Banco">Objeto serializado de tipo Entidades.Banco</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BancoController.Put(ERPWebApi.Entidades.Banco)">
+            <summary>
+            Actualiza los datos de un Banco
+            </summary>
+            <param name="Banco">Objeto serializado de tipo Entidades.Banco</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BancoController.Delete(System.Int16)">
+            <summary>
+            Elimina un banco por su Id
+            </summary>
+            <param name="id">Id del Banco a Eliminar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BitacoraController.Get(System.Int16,System.Int16,System.Int64)">
+            <summary>
+            Obtiene las actividades de la bitácora del sistema de una referencia específica de una Funcionalidad o Aplicación definida por el usuario
+            </summary>
+            <param name="idFuncionalidad">Es el Id de la funcionalidad</param>
+            <param name="idAplicacion">Es el Id de la Aplicación definida por el usuario</param>
+            <param name="idReferencia">Es el Id de la Funcionalidad o Aplicación</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BitacoraController.Post(ERPWebApi.Entidades.Bitacora)">
+            <summary>
+            Crea una actividad en la bitácora del sistema
+            </summary>
+            <param name="Bitacora">Objeto serializado de tipo Entidades.Bitacora</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BitacoraController.Put(ERPWebApi.Entidades.Bitacora)">
+            <summary>
+            Actualiza una actividad en la bitácora del sistema
+            </summary>
+            <param name="Bitacora">Objeto serializado de tipo Entidades.Bitacora</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BitacoraController.Delete(System.Int64)">
+            <summary>
+            Elimina una actividad de la bitácora del sistema
+            </summary>
+            <param name="id">Es el Id de la actividad a Eliminar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BusquedaDocumentoController.Post(ERPWebApi.Entidades.BusquedaDocumento)">
+            <summary>
+            Obtiene una colección de resultados de tipo entidades.BusquedaDocumento para la búsqueda de documentos
+            </summary>
+            <param name="BusquedaDocumento">Objeto serializado de tipo Entidades.BusquedaDocumento</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BusquedaGeneralController.Post(ERPWebApi.Entidades.BusquedaGeneral)">
+            <summary>
+            Obtiene una colección de resultados de tipo entidades.BusquedaGeneral para la búsqueda de datos generales
+            </summary>
+            <param name="BusquedaGeneral">Objeto serializado de tipo Entidades.BusquedaGeneral</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BusquedaProductoController.Get(ERPWebApi.Entidades.BusquedaProducto)">
+            <summary>
+            Obtiene una colección de resultados de tipo entidades.BusquedaProducto para la búsqueda de productos
+            </summary>
+            <param name="BusquedaProducto">Objeto serializado de tipo Entidades.BusquedaProducto</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.BusquedaProductoController.Post(ERPWebApi.Entidades.BusquedaProducto)">
+            <summary>
+            Obtiene una colección de resultados de tipo entidades.BusquedaProducto para la búsqueda de Productos
+            </summary>
+            <param name="BusquedaProducto">Objeto serializado de tipo Entidades.BusquedaProducto</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CajaController.Get(System.Int16,System.Int16,System.Int16)">
+            <summary>
+            Obtiene una o todas las Cajas Registradoras de una sucursal
+            </summary>
+            <param name="id">Id de la Caja; 0=Todas las Cajas Registradoras de una sucursal</param>
+            <param name="idsucursal">Id de la sucursal</param>
+            <param name="id2">0 (no se usa por el momento)</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CajaController.Get(System.Int16)">
+            <summary>
+            Obtiene una Caja Registradora por su Id
+            </summary>
+            <param name="id">Id de la Caja</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CajaController.Get(System.String,System.Int16)">
+            <summary>
+            Obtiene una colección de resultados de tipo entidades.Caja para la búsqueda de Cajas Registradoras
+            </summary>
+            <param name="buscar">El nombre de la caja registradora a buscar</param>
+            <param name="idsucursal">Id de la sucursal donde se buscará; 0 = Todas las sucursales</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CajaController.Post(ERPWebApi.Entidades.Caja)">
+            <summary>
+            Crea una nueva Caja Registradora
+            </summary>
+            <param name="Caja">Objeto serializado de tipo Entidades.Caja</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CajaController.Put(ERPWebApi.Entidades.Caja)">
+            <summary>
+            Actualiza los datos de una Caja Registradora Existente
+            </summary>
+            <param name="Caja">Objeto serializado de tipo Entidades.Caja</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CajaController.Delete(System.Int16)">
+            <summary>
+            Elimina una Caja Registradora
+            </summary>
+            <param name="id">Id de la Caja a Eliminar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.ClasDetController.Get(System.Int32,System.Int64,System.Int16)">
+            <summary>
+            Obtiene una colección de Clasificaciones de una funcionalidad de tipo Entidades.ClasDet
+            </summary>
+            <param name="idclas">Id de la clasificación; 0 = Todas</param>
+            <param name="idref">Id de la referencia de la funcionalidad</param>
+            <param name="idfuncionalidad">Id de la Funcionalidad a consultar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.ClasDetController.Get(System.Int32,System.Int64,System.Int16,System.Int16)">
+            <summary>
+            Obtiene una colección de Clasificaciones de una funcionalidad de una empresa de tipo Entidades.ClasDet
+            </summary>
+            <param name="idclas">Id de la clasificación; 0 = Todas</param>
+            <param name="idref">Id de la referencia de la funcionalidad</param>
+            <param name="idfuncionalidad">Id de la Funcionalidad a consultar</param>
+            <param name="idempresa">Id de la empresa</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.ClasDetController.Post(ERPWebApi.Entidades.ClasDet)">
+            <summary>
+            Crea una nueva referencia de clasificación
+            </summary>
+            <param name="ClasDet">Objeto serializado de tipo Entidades.ClasDet</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.ClasDetController.Put(ERPWebApi.Entidades.ClasDet)">
+            <summary>
+            Actualiza los datos de un referencia de clasificación
+            </summary>
+            <param name="ClasDet">Objeto serializado de tipo Entidades.ClasDet</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.ClasDetController.Delete(System.Int64)">
+            <summary>
+            Elimina una referencia de clasificación por su Id
+            </summary>
+            <param name="id">Id a Eliminar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.ClasDetController.Delete(System.Int32,System.Int64,System.Int16)">
+            <summary>
+            Elimina todas las referencias de clasificación de una funcionalidad
+            </summary>
+            <param name="idclas">Id de la clasificación a eliminar; 0 = Todas</param>
+            <param name="idref">Id de la referncia de la funcionalidad</param>
+            <param name="idfuncionalidad">Id de la Funcionalidad</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.ClasificacionController.Get(System.Int16,System.Int16,System.Int32)">
+            <summary>
+            Obtiene una colección de clasificaciones de una funcionalidad y de una empresa de tipo Entidades.Clasificaciones
+            </summary>
+            <param name="idempresa">Id de la empresa</param>
+            <param name="idfuncionalidad">Id de la funcionalidad</param>
+            <param name="id">Id de la clasificacion; 0 = Todas</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.ClasificacionController.Post(ERPWebApi.Entidades.Clasificacion)">
+            <summary>
+            Crea una nueva clasificación
+            </summary>
+            <param name="Clasificacion">objeto serializado de tipo Entidades.Clasificacion</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.ClasificacionController.Put(ERPWebApi.Entidades.Clasificacion)">
+            <summary>
+            Actualiza los datos de una clasificación
+            </summary>        
+            <param name="Clasificacion">objeto serializado de tipo Entidades.Clasificacion</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.ClasificacionController.Delete(System.Int32)">
+            <summary>
+            Elimina una Clasificacion por su Id
+            </summary>
+            <param name="id">Id de la clasificacón a Eliminar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CliProvController.Get(System.Int32)">
+            <summary>
+            Obtiene un cliente o proveedor por su Id
+            </summary>
+            <param name="id">Id del cliente o proveedor</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CliProvController.Get(System.Int32,System.Boolean)">
+            <summary>
+            Obtiene una colección de clientes o proveedores del tipo Entidades.CliProv
+            </summary>
+            <param name="id">Id del cliente o proveedor; 0 = Todos</param>
+            <param name="cliente">true=para Clientes ; false=para proveedores</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CliProvController.Get(System.Boolean,System.String,System.Int32)">
+            <summary>
+            Obtiene una colección de clientes o proveedores de acuerdo al nombre a buscar. Resultado de tipo Entidades.CliProv
+            </summary>
+            <param name="cliente">true=para Clientes ; false=para proveedores</param>
+            <param name="buscar">el nombre del cliente o proveedor a buscar</param>
+            <param name="id">0 (NO SE USA POR EL MOMENTO)</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CliProvController.Post(ERPWebApi.Entidades.CliProv)">
+            <summary>
+            Crea un cliente o proveedor nuevo
+            </summary>
+            <param name="CliProv">Objeto serializado de tipo Entidades.CliProv</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CliProvController.Put(ERPWebApi.Entidades.CliProv)">
+            <summary>
+            Actualiza los datos de un Cliente o Proveedor
+            </summary>
+            <param name="CliProv">Objeto serializado de tipo Entidades.CliProv</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CliProvController.Delete(System.Int32)">
+            <summary>
+            Elimina un cliente o proveedor por su Id
+            </summary>
+            <param name="id">Id del cliente o proveedor a eliminar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CondicionPagoController.Get">
+            <summary>
+            Obtiene una colección de todas las condiciones de Pago para CFDIs. Resultado de tipo Entidades.CondicionPago
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CondicionPagoController.Get(System.Int16)">
+            <summary>
+            Obtiene una condición de pago de Cfdi por su Id
+            </summary>
+            <param name="id">Id de la condición de pago de Cfdi</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CondicionPagoController.Post(ERPWebApi.Entidades.CondicionPago)">
+            <summary>
+            Crea una condición de pago nueva
+            </summary>
+            <param name="CondicionPago">objeto serializado de tipo Entidades.CondicionPago</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CondicionPagoController.Put(ERPWebApi.Entidades.CondicionPago)">
+            <summary>
+            Actualiza los datos de una Condición de pago de Cfdi
+            </summary>
+            <param name="CondicionPago">objeto serializado de tipo Entidades.CondicionPago</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CondicionPagoController.Delete(System.Int16)">
+            <summary>
+            Elimina una condición de pago por su Id
+            </summary>
+            <param name="id">Id de la condición de pago a eliminar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CuentaBancoController.Get(System.String,System.Int16)">
+            <summary>
+            Obtiene una colección de Cuentas Bancarias por el nombre a buscar de una sucursal. Resultado de tipo Entidades.CuentaBanco
+            </summary>
+            <param name="buscar">Nombre de la cuenta bancaria a buscar</param>
+            <param name="idsucursal">Id de la sucursal a buscar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CuentaBancoController.Get(System.Int16)">
+            <summary>
+            Obtiene una o todas las cuentas bancarias. Resultado de tipo Entidades.CuentaBanco
+            </summary>
+            <param name="id">Id de la cuenta bancaria a buscar; 0 = Todas</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CuentaBancoController.Post(ERPWebApi.Entidades.CuentaBanco)">
+            <summary>
+            Crea una cuenta bancaria nueva
+            </summary>
+            <param name="CuentaBanco">Objeto serializado de tipo Entidades.CuentaBanco</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CuentaBancoController.Put(ERPWebApi.Entidades.CuentaBanco)">
+            <summary>
+            Actualiza los datos de una cuenta bancaria
+            </summary>
+            <param name="CuentaBanco">Objeto serializado de tipo Entidades.CuentaBanco</param>
+            <returns></returns>
+        </member>
+        <member name="M:ERPWebApi.Controllers.CuentaBancoController.Delete(System.Int16)">
+            <summary>
+            Elimina una cuenta bancaria por su Id
+            </summary>
+            <param name="id">Id de la cuenta bancaria a eliminar</param>
+            <returns></returns>
+        </member>
+        <member name="T:ERPWebApi.Entidades.PreferenciasUsuario">
+            <summary>
+            Enumerador para el control de las entidades
+            </summary>
+            
+        </member>
+        <member name="T:ERPWebApi.Entidades.IEntidadBase">
+            <summary>
+            clase base para todas las entidades para manejar los estatus y 
+            el registro de la bitacora de movimientos
+            </summary>	
+        </member>
+    </members>
+</doc>

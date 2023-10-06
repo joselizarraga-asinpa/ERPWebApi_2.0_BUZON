@@ -1,0 +1,10 @@
+-p C:\Program Files\dotnet\dotnet.exe
+-pidFile C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\bin\IISSupport\pidfile.txt
+-wd C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi
+-a exec "C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi\bin\Debug\netcoreapp2.0\ERPWebApi.dll"
+-wbe Global\Buildaf4fb0f7-6b94-46d0-b347-9b426d6c1d13
+-lse Global\Launch27832d48-c60f-4eec-9b03-2222f7066773
+-pipe c8b92717-3b76-415b-83e8-eb0e811c096a
+-pr ERPWebApi
+-owningPid 788
+-env ASPNETCORE_CONTENTROOT=C:\Empresa\Wallace\Proyectos\ERP2017\ERPWebApi_2.0\ERPWebApi|ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.ApplicationInsights.HostingStartup|ASPNETCORE_ENVIRONMENT=Development|COMPLUS_ForceENC=1|
